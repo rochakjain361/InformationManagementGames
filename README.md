@@ -1,2 +1,2 @@
 # InformationManagementGames
-Information Management Grou-- Games.
+Information Management Grou- err.. Games!
