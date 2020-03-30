@@ -20,7 +20,7 @@ html{
     justify-content: center;
 }
 
-.nav{ 
+.nav{
     width: 1000px;
     height: 3.25em;
     display: flex;
@@ -45,6 +45,11 @@ html{
     height: 15.625em;
     width: 100%;
     background-color: white;
+    text-align: center;
+}
+
+.IMGames a {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .slideshow{
