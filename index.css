@@ -1,0 +1,68 @@
+.navContainer{
+    /* box-shadow: 0 4px 6px 0 #ede8da; */
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav{ 
+    width: 1000px;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.IMGames{
+    height: 375.14px;
+    width: 100%;
+    background-color: white;
+}
+
+.slideshow{
+    height: 375.14px;
+    width: 100%;
+    background-color: #f2e8e8;
+}
+
+.descriptions{
+    height: 254px;
+    width: 100%;
+    background-color: #c4c4c4;
+}
+
+.elementsGrid{
+    width: 100%;
+    height: 2000px;
+    display: grid;
+    background-color: white;
+}
+
+.element{
+
+}
+
+.bottomGrayRectangle{
+    height: 362px;
+    width: 100%;
+    background-color: #c4c4c4;
+}
+
+.footer{
+    height: 67px;
+    width: 100%;;
+}
