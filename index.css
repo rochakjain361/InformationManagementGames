@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box
+}
+html{
+    font-size: 24px;
 }
 
 .navContainer{
@@ -18,7 +22,7 @@
 
 .nav{ 
     width: 1000px;
-    height: 78px;
+    height: 3.25em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,33 +36,50 @@
     flex-direction: row;
 }
 
+.container{
+    display: grid;
+}
+
 .IMGames{
-    height: 375.14px;
+    height: 15.625em;
     width: 100%;
     background-color: white;
 }
 
 .slideshow{
-    height: 375.14px;
+    height: 15.625em;
     width: 100%;
     background-color: #f2e8e8;
 }
 
 .descriptions{
-    height: 254px;
+    height: 10.583em;
     width: 100%;
     background-color: #c4c4c4;
 }
 
 .elementsGrid{
     width: 100%;
-    height: 2000px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
     background-color: white;
+    justify-content: center;
+    align-content: start;
 }
 
 .element{
-
+    height: 14.583em;
+    background-color: aqua;
+    margin: 20px;
+    width: 15.67em;
+}
+.bigElement{
+    grid-column: span 2;
+    grid-row: 3 / span 2;
+    background-color: aqua;
+    margin: 20px;
+    width: 33.125em;
 }
 
 .bottomGrayRectangle{
