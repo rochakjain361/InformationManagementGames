@@ -38,6 +38,7 @@ html{
 
 .container{
     display: grid;
+    justify-content: center;
 }
 
 .IMGames{
