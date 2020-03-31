@@ -43,6 +43,7 @@ body{
 .container{
     display: grid;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .IMGames{
@@ -78,6 +79,10 @@ body{
     align-content: start;
 }
 
+.elementsGridMobile{
+    display: none;
+}
+
 .element{
     height: 14.583em;
     background-color: #121212;
@@ -105,4 +110,31 @@ body{
 .footer{
     height: 67px;
     width: 100%;;
+}
+
+@media only screen and (max-width:450px){
+    .nav{
+        width: 100%;
+    }
+    .elementsGrid{
+        display: none;
+    }
+    .elementsGridMobile{
+        background-color: #121212;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        overflow-x: auto;
+        padding: 10px;
+    }
+    .element{
+        width: 8.96em;
+        height:8.33em ;
+        flex: 0 0 auto;
+        background-color: aqua;
+    }
+    .bottomGrayRectangle{
+        display: none;
+    }
 }
