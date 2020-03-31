@@ -100,6 +100,16 @@ body{
     box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0);
     border-radius: 20px;
 }
+.elementImage{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.bigElementImage{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
 
 .bottomGrayRectangle{
     height: 362px;
@@ -137,4 +147,51 @@ body{
     .bottomGrayRectangle{
         display: none;
     }
+    .IMGames{
+        font-size: 0.8em;
+    }
+}
+#bigElement{
+    background-image: url("images/big.png");
+    background-size: contain;
+}
+#element1{
+    background-image: url("images/card1.png");
+    background-size: contain;
+}
+#element2{
+    background-image: url("images/card2.png");
+    background-size: contain;
+}
+#element3{
+    background-image: url("images/card3.png");
+    background-size: contain;
+}
+#element4{
+    background-image: url("images/card4.png");
+    background-size: contain;
+}
+#element5{
+    background-image: url("images/card5.png");
+    background-size: contain;
+}
+#element6{
+    background-image: url("images/card6.png");
+    background-size: contain;
+}
+#element7{
+    background-image: url("images/card7.png");
+    background-size: contain;
+}
+#element8{
+    background-image: url("images/card8.png");
+    background-size: contain;
+}
+#element9{
+    background-image: url("images/card9.png");
+    background-size: contain;
+}
+#element10{
+    background-image: url("images/card10.png");
+    background-size: contain;
 }
