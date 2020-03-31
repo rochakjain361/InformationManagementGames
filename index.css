@@ -212,45 +212,45 @@ a {
 }
 #bigElement{
     background-image: url("images/big.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element1{
     background-image: url("images/card1.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element2{
     background-image: url("images/card2.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element3{
     background-image: url("images/card3.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element4{
     background-image: url("images/card4.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element5{
     background-image: url("images/card5.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element6{
     background-image: url("images/card6.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element7{
     background-image: url("images/card7.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element8{
     background-image: url("images/card8.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element9{
     background-image: url("images/card9.png");
-    background-size: contain;
+    background-size:cover;
 }
 #element10{
     background-image: url("images/card10.png");
-    background-size: contain;
+    background-size:cover;
 }
