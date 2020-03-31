@@ -5,6 +5,10 @@
 }
 html{
     font-size: 24px;
+    background-color: #121212;
+}
+body{
+    display: grid;
 }
 
 .navContainer{
@@ -52,11 +56,11 @@ html{
   font-family: 'Press Start 2P', cursive;
 }
 
-.slideshow{
+/*.slideshow{
     height: 15.625em;
     width: 100%;
     background-color: #f2e8e8;
-}
+}*/
 
 .descriptions{
     height: 10.583em;
@@ -65,11 +69,11 @@ html{
 }
 
 .elementsGrid{
+    background-color: #121212;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    background-color: white;
     justify-content: center;
     align-content: start;
 }
