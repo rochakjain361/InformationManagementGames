@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 html{
     font-size: 24px;
@@ -43,6 +43,7 @@ body{
 .container{
     display: grid;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .IMGames{
@@ -78,18 +79,26 @@ body{
     align-content: start;
 }
 
+.elementsGridMobile{
+    display: none;
+}
+
 .element{
     height: 14.583em;
-    background-color: aqua;
+    background-color: #121212;
     margin: 20px;
     width: 15.67em;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 20px;
 }
 .bigElement{
     grid-column: span 2;
     grid-row: 3 / span 2;
-    background-color: aqua;
+    background-color: #121212;
     margin: 20px;
     width: 33.125em;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 20px;
 }
 
 .bottomGrayRectangle{
@@ -97,7 +106,6 @@ body{
     width: 100%;
     background-color: #c4c4c4;
 }
-
 .footer{
     display: flex;
     flex-direction: column;
@@ -115,4 +123,30 @@ body{
     height: 40px;
     align-self: flex-end;
     background-color: #c4c4c4;
+}
+@media only screen and (max-width:450px){
+    .nav{
+        width: 100%;
+    }
+    .elementsGrid{
+        display: none;
+    }
+    .elementsGridMobile{
+        background-color: #121212;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        overflow-x: auto;
+        padding: 10px;
+    }
+    .element{
+        width: 8.96em;
+        height:8.33em ;
+        flex: 0 0 auto;
+        background-color: aqua;
+    }
+    .bottomGrayRectangle{
+        display: none;
+    }
 }
