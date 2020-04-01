@@ -55,3 +55,29 @@ window.onload = function() {
 };
 
 //TYPING EFFECT CODE ENDS
+
+
+//NAV BAR LINK SCROLL EFFECT CODE STARTS
+
+function scrollToElem(element){
+  var position = $(element).offset().top;
+  var duration = getDuration(position);
+  $("HTML, BODY").animate({
+      scrollTop: position
+  }, duration);
+}
+
+function getDuration(target) {
+  var currentTop = $(window).scrollTop(), rate = 0.5, distance;
+  distance = Math.abs(currentTop - target);
+  return distance * rate;
+}
+
+$("#homeLink").on('click', function(){
+  var duration = getDuration(0);
+  $("HTML, BODY").animate({
+      scrollTop: 0
+  }, duration);
+});
+
+//NAV BAR LINK SCROLL EFFECT CODE ENDS

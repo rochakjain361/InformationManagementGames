@@ -12,6 +12,9 @@ body{
     display: grid;
 }
 
+#imgNAV{
+    color: white;
+}
 .navContainer{
     /* box-shadow: 0 4px 6px 0 #ede8da; */
     position: sticky;
@@ -27,13 +30,13 @@ body{
 }
 
 .nav{
-    width: 1000px;
+    width: 1272.5px;
     height: 3.25em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 0.9em;
-    margin-left: 0.9em;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
 }
 
 .navLogo {
@@ -47,13 +50,14 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    justify-self: flex-end;
 
 }
 .navLink{
+    cursor: pointer;
     margin: 0px 3em;
-    font-size: 0.5em;
-    font-family: 'Nunito Sans', sans-serif;
-    color: #3B3736;
+    font-size: 0.583em;
+    color: white;
     
 }
 
