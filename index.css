@@ -224,14 +224,13 @@ a {
     width: 100%;
     background: url("images/footer-background.jpg");
     background-size: cover;
-    color: #d3d3d3;
+    color: #fff;
     position: relative;
 }
 .footer-content{
     height: 100px;
     display: flex;
     flex-flow: row;
-    margin: 10px ;
     width: 100%;
     justify-content: center;
 }
@@ -239,16 +238,19 @@ a {
     width: 50%;
     font-size: 25px;
     font-family: 'Nunito Sans', sans-serif;
-    padding-left: 2em;
+    padding-left: 10%;
     padding-top: 0.5em;
 }
-.footer-content-about-us{
+.footer-content-contact-us{
     width: 50%;
-    font-family: 'Nunito Sans', sans-serif;
+}
+.logos{
+    margin-top: 20px;
+    margin-left: 50%;
 }
 .footer-bottom{
     background: #223144;
-    color: #dddddd;
+    color: #fff;
     height: 50px;
     width:  100%;
     text-align: center;
@@ -318,8 +320,7 @@ a {
     color: #ffffff;
     margin-bottom: 1em;
 }
-
-  .descriptions {
+.descriptions {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -328,10 +329,9 @@ a {
   }
 
     .description-text {
-      width: 60vw;
-      text-align: center;
+        width: 60vw;
+        text-align: center;
     }
-
 @media only screen and (max-width:1200px){
     .nav{
         width: 100%;
