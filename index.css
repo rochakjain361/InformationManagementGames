@@ -167,15 +167,44 @@ a {
 .bottomGrayRectangle{
     height: 362px;
     width: 100%;
-    background-color: #c4c4c4;
+    background-image: url("images/GAME.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .footer{
     height: 67px;
     width: 100%;
 }
-
+.boredButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boredButton{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 50%;
+}
+.boredButton:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+     0%{
+         background-position: 0%;
+     }
+     100%{
+         background-position: 400%;
+     }
+}
 @media only screen and (max-width:1200px){
+
     .nav{
         width: 100%;
     }

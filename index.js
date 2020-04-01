@@ -55,3 +55,14 @@ window.onload = function() {
 };
 
 //TYPING EFFECT CODE ENDS
+
+// BORED BUTTON CODE STARTS
+
+var gameLinks=["https://ayu023ban.github.io/tic-tac-toe/","https://gauransh7.github.io/car-traffic/","https://kmrinal19.github.io/pocketTanks/","https://sparsh1212.github.io/Mid-sem_Assignment_Sparsh/","https://mihirsachdeva.github.io/FlappyBird/","https://aitalshashank2.github.io/ChessEngine/index.html","https://prernaswarna.github.io/Gamejavacript/","https://shreyasdoda.github.io/connect-four-hosted/","https://geekvert.github.io/Minesweeper/","https://bpraak.github.io/Memory/"]
+function boredButtonClick(){
+  let linkLength= gameLinks.length
+  let random_num = Math.floor(Math.random()*linkLength)
+  window.location.href=gameLinks[random_num]
+}
+
+// BORED BUTTON CODE ENDS
