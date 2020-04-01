@@ -40,6 +40,22 @@ body{
     flex-direction: row;
 }
 
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navLink{
+    margin: 0px 3em;
+    font-size: 0.5em;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #3B3736;
+    
+}
+
+
 .container{
     display: grid;
     justify-content: center;
