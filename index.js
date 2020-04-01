@@ -100,3 +100,48 @@ function boredButtonClick(){
 }
 
 // BORED BUTTON CODE ENDS
+
+
+//SIDENAV CODE STARTS
+var sideopen = false;
+$('#nav-icon3').click(function(){
+  $(this).toggleClass('open');
+  if(sideopen){
+    closeNav();
+    
+  } else{
+    document.getElementById("sidenav").style.width = "250px";
+    sideopen = true;
+  }
+  
+});
+
+$('#gamesLinkS').on('click', function(){
+  $('#nav-icon3').toggleClass('open');
+  closeNav();
+  scrollToElem('#elementsGridMobile')
+});
+
+$('#footerLinkS').on('click', function(){
+  $('#nav-icon3').toggleClass('open');
+  closeNav();
+  scrollToElem('#footer');
+});
+
+$("#homeLinkS").on('click', function(){
+  $('#nav-icon3').toggleClass('open');
+  closeNav();
+  var duration = getDuration(0);
+  $("HTML, BODY").animate({
+      scrollTop: 0
+  }, duration);
+});
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  sideopen = false;
+  document.getElementById("sidenav").style.width = "0";
+}
+
+
+//SIDENAV CODE ENDS
