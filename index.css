@@ -84,7 +84,7 @@ body{
 }
 
 .typing{
-    margin: 1em auto;
+    margin: 1.75em auto;
     display: flex;
     flex-direction: row;
     justify-content: center;

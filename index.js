@@ -62,11 +62,6 @@ $('#gamesLink').on('click', function(){
   scrollToElem('#element1')
 });
 
-$('#footerLink').on('click', function(){
-  scrollToElem('#footer');
-});
-
-
 function scrollToElem(element){
   var position = $(element).offset().top;
   var duration = getDuration(position);
@@ -120,12 +115,6 @@ $('#gamesLinkS').on('click', function(){
   $('#nav-icon3').toggleClass('open');
   closeNav();
   scrollToElem('#elementsGridMobile')
-});
-
-$('#footerLinkS').on('click', function(){
-  $('#nav-icon3').toggleClass('open');
-  closeNav();
-  scrollToElem('#footer');
 });
 
 $("#homeLinkS").on('click', function(){
