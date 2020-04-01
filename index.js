@@ -56,6 +56,40 @@ window.onload = function() {
 
 //TYPING EFFECT CODE ENDS
 
+
+//NAV BAR LINK SCROLL EFFECT CODE STARTS
+$('#gamesLink').on('click', function(){
+  scrollToElem('#element1')
+});
+
+$('#footerLink').on('click', function(){
+  scrollToElem('#footer');
+});
+
+
+function scrollToElem(element){
+  var position = $(element).offset().top;
+  var duration = getDuration(position);
+  $("HTML, BODY").animate({
+      scrollTop: position
+  }, duration);
+}
+
+function getDuration(target) {
+  var currentTop = $(window).scrollTop(), rate = 0.5, distance;
+  distance = Math.abs(currentTop - target);
+  return distance * rate;
+}
+
+$("#homeLink").on('click', function(){
+  var duration = getDuration(0);
+  $("HTML, BODY").animate({
+      scrollTop: 0
+  }, duration);
+});
+
+//NAV BAR LINK SCROLL EFFECT CODE ENDS
+
 // BORED BUTTON CODE STARTS
 
 var gameLinks=["https://ayu023ban.github.io/tic-tac-toe/","https://gauransh7.github.io/car-traffic/","https://kmrinal19.github.io/pocketTanks/","https://sparsh1212.github.io/Mid-sem_Assignment_Sparsh/","https://mihirsachdeva.github.io/FlappyBird/","https://aitalshashank2.github.io/ChessEngine/index.html","https://prernaswarna.github.io/Gamejavacript/","https://shreyasdoda.github.io/connect-four-hosted/","https://geekvert.github.io/Minesweeper/","https://bpraak.github.io/Memory/"]
