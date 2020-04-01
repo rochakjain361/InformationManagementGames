@@ -330,9 +330,12 @@ a {
         font-family: 'Oxygen', sans-serif;
         color: #ffffff;
         font-size: 0.6em;
+        animation: animate 8s linear infinite;
     }
     .boredButton:before{
         position: inherit;
+        animation: animate 8s linear infinite;
+        opacity: 0.7;
     }
 
     .group {
