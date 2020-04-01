@@ -109,7 +109,7 @@ body{
     height: 10.583em;
     width: 100%;
     background-color: #121212;
-    margin-top: 224px;
+    margin-top: 270px;
     height: auto;
     font-family: 'Oxygen', sans-serif;
     font-size: 18px;
@@ -351,7 +351,7 @@ a {
     }
 
     .descriptions {
-      margin-top: 330px;
+      margin-top: 360px;
     }
 
     .description-text {
@@ -487,7 +487,7 @@ a {
 
 @media screen and (max-width: 750px) {
   .descriptions {
-    margin-top: 240px;
+    margin-top: 266px;
     font-size: 13px;
   }
 }
