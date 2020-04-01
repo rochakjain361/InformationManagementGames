@@ -58,6 +58,14 @@ window.onload = function() {
 
 
 //NAV BAR LINK SCROLL EFFECT CODE STARTS
+$('#gamesLink').on('click', function(){
+  scrollToElem('#element1')
+});
+
+$('#footerLink').on('click', function(){
+  scrollToElem('#footer');
+});
+
 
 function scrollToElem(element){
   var position = $(element).offset().top;

@@ -14,6 +14,7 @@ body{
 
 #imgNAV{
     color: white;
+    font-size: 0.8em;
 }
 .navContainer{
     /* box-shadow: 0 4px 6px 0 #ede8da; */
@@ -71,15 +72,27 @@ body{
 .IMGames{
     height: 15.625em;
     width: 100%;
-    background-color: white;
+    background-color: #121212;
     text-align: center;
 }
 
-.IMGames a {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 40px;
+.typing{
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.typing p{
+    font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  color: #e6e6e6;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+}
 .wrap {
   font-family: 'Press Start 2P', cursive;
   font-size: 40px;
