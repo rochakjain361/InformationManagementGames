@@ -87,7 +87,7 @@ $("#homeLink").on('click', function(){
 
 // BORED BUTTON CODE STARTS
 
-var gameLinks=["https://ayu023ban.github.io/tic-tac-toe/","https://gauransh7.github.io/car-traffic/","https://kmrinal19.github.io/pocketTanks/","https://sparsh1212.github.io/Mid-sem_Assignment_Sparsh/","https://mihirsachdeva.github.io/FlappyBird/","https://aitalshashank2.github.io/ChessEngine/index.html","https://prernaswarna.github.io/Gamejavacript/","https://shreyasdoda.github.io/connect-four-hosted/","https://geekvert.github.io/Minesweeper/","https://bpraak.github.io/Memory/","https://rochakjain361.github.io/snakeGame/snakes.html","https://ktg-123.github.io/PingPong.html","https://ruddi10.github.io/ping-pong/","https://yash523.github.io/game.html","https://gopalgupta8216.github.io/Snake-game/","https://gagansh7171.github.io/js-game/"]
+var gameLinks=["https://ayu023ban.github.io/tic-tac-toe/","https://gauransh7.github.io/car-traffic/","https://kmrinal19.github.io/pocketTanks/","https://sparsh1212.github.io/Mid-sem_Assignment_Sparsh/","https://mihirsachdeva.github.io/FlappyBird/","https://aitalshashank2.github.io/ChessEngine/index.html","https://prernaswarna.github.io/Gamejavacript/","https://shreyasdoda.github.io/connect-four-hosted/","https://geekvert.github.io/Minesweeper/","https://bpraak.github.io/Memory/","https://rochakjain361.github.io/snakeGame/snakes.html","https://ktg-123.github.io/PingPong.html","https://ruddi10.github.io/ping-pong/","https://yash523.github.io/game.html","https://gopalgupta8216.github.io/game/Snake.html","https://gagansh7171.github.io/js-game/"]
 function boredButtonClick(){
   let linkLength= gameLinks.length
   let random_num = Math.floor(Math.random()*linkLength)
