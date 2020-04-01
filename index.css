@@ -182,8 +182,8 @@ a {
     align-items: center;
 }
 .boredButton{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: block;
     text-align: center;
     color: #fff;
@@ -222,6 +222,12 @@ a {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
+}
+.boringText{
+    align-self: flex-end;
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+    margin-bottom: 1em;
 }
 @media only screen and (max-width:1200px){
 
@@ -262,6 +268,17 @@ a {
     .IMGames a {
       font-family: 'Press Start 2P', cursive;
       font-size: 34px;
+    }
+    .boredButton{
+        position: inherit;
+        width: 120px;
+        height: 120px;
+        font-family: 'Oxygen', sans-serif;
+        color: #ffffff;
+        font-size: 0.6em;
+    }
+    .boredButton:before{
+        position: inherit;
     }
 
 }
