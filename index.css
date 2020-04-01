@@ -510,9 +510,19 @@ a {
     .sidenav a:hover {
         color: #f1f1f1;
     }
-    
-    
-
+    .footer-content-made-with-love{
+        display: none;
+    }
+    .footer-content-contact-us{
+        margin-left: -80px;
+        position: absolute;
+    }
+    .footer{
+        height: 120px;
+    }
+    .footer-content{
+        height: 70px;
+    }
 }
 
 @media screen and (max-height: 450px) {
@@ -521,8 +531,15 @@ a {
 }
 
 /*BELOW CODE NOT UNDER MEDIA QUERY*/
-
-
+@media screen and (max-width: 605px){
+    .footer-bottom-text{
+        font-size: 14px;
+    }
+    .logos{
+        margin-left: 50%;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 750px) {
   .descriptions {
     margin-top: 240px;
