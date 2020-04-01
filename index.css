@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 html{
     font-size: 24px;
@@ -16,12 +17,13 @@ body{
     position: sticky;
     top: 0;
     z-index: 5;
-    background-color: gray;
     display: flex;
     width: 100%;
     align-content: center;
     flex-direction: row;
     justify-content: center;
+    background-color: #121212b3;
+    backdrop-filter: saturate(280%) blur(20px);
 }
 
 .nav{
@@ -56,7 +58,7 @@ body{
 }
 
 
-.container{
+.container_{
     display: grid;
     justify-content: center;
     overflow-x: hidden;
@@ -71,13 +73,13 @@ body{
 
 .IMGames a {
   font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
 }
 
-/*.slideshow{
-    height: 15.625em;
-    width: 100%;
-    background-color: #f2e8e8;
-}*/
+.wrap {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+}
 
 .descriptions{
     height: 10.583em;
@@ -106,7 +108,58 @@ body{
     width: 15.67em;
     box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0);
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
 }
+
+.slideshow-Actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.Action {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1212127d;
+  border-radius: 25px;
+  color: #FFF;
+  box-shadow: 0px 0px 0px 2px #ffffff75;
+  transition: 0.2s;
+  backdrop-filter: saturate(280%) blur(10px);
+}
+
+.slideshow-Actions a:first-child {
+  margin-right: 40px;
+}
+
+.slideshow-Actions a:last-child {
+  margin-left: 40px;
+}
+
+.Action:hover {
+  background-color: #121212d1;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Action-text {
+  padding: 7px;
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+
 .bigElement{
     grid-column: span 2;
     grid-row: 3 / span 2;
@@ -135,12 +188,18 @@ body{
 
 .footer{
     height: 67px;
-    width: 100%;;
+    width: 100%;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:1200px){
     .nav{
         width: 100%;
+    }
+    .typing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .elementsGrid{
         display: none;
@@ -158,7 +217,7 @@ body{
         width: 8.96em;
         height:8.33em ;
         flex: 0 0 auto;
-        background-color: aqua;
+        background-color: #121212;
     }
     .bottomGrayRectangle{
         display: none;
@@ -166,48 +225,54 @@ body{
     .IMGames{
         font-size: 0.8em;
     }
+
+    .IMGames a {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 34px;
+    }
+
 }
 #bigElement{
     background-image: url("images/big.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element1{
     background-image: url("images/card1.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element2{
     background-image: url("images/card2.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element3{
     background-image: url("images/card3.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element4{
     background-image: url("images/card4.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element5{
     background-image: url("images/card5.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element6{
     background-image: url("images/card6.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element7{
     background-image: url("images/card7.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element8{
     background-image: url("images/card8.png");
-    background-size: contain;
+    background-size: cover;
 }
 #element9{
     background-image: url("images/card9.png");
-    background-size: contain;
+    background-size:cover;
 }
 #element10{
     background-image: url("images/card10.png");
-    background-size: contain;
+    background-size:cover;
 }
