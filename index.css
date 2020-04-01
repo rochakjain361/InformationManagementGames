@@ -63,7 +63,7 @@ body{
     margin: 0px 3em;
     font-size: 0.583em;
     color: white;
-    
+
 }
 
 .hamburger{
@@ -84,15 +84,15 @@ body{
 }
 
 .typing{
-    margin: 2em auto;
+    margin: 1em auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.typing p{
+.typing span {
     font-family: 'Press Start 2P', cursive;
-  font-size: 40px;
+  font-size: 33px;
   color: #e6e6e6;
 }
 
@@ -108,7 +108,12 @@ body{
 .descriptions{
     height: 10.583em;
     width: 100%;
-    background-color: #c4c4c4;
+    background-color: #121212;
+    margin-top: 224px;
+    height: auto;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    color: #FFF;
 }
 
 .elementsGrid{
@@ -210,6 +215,8 @@ a {
     background-image: url("images/GAME.png");
     background-size: cover;
     background-position: center;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .footer{
@@ -270,6 +277,19 @@ a {
     margin-bottom: 1em;
 }
 
+  .descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
+    .description-text {
+      width: 60vw;
+      text-align: center;
+    }
+
 @media only screen and (max-width:1200px){
 
     .nav{
@@ -318,9 +338,24 @@ a {
         font-family: 'Oxygen', sans-serif;
         color: #ffffff;
         font-size: 0.6em;
+        animation: animate 8s linear infinite;
     }
     .boredButton:before{
         position: inherit;
+        animation: animate 8s linear infinite;
+        opacity: 0.7;
+    }
+
+    .group {
+      margin-top: 5px;
+    }
+
+    .descriptions {
+      margin-top: 330px;
+    }
+
+    .description-text {
+      width: 90vw;
     }
 
 }
@@ -447,6 +482,14 @@ a {
 }
 
 /*BELOW CODE NOT UNDER MEDIA QUERY*/
+
+
+@media screen and (max-width: 750px) {
+  .descriptions {
+    margin-top: 240px;
+    font-size: 13px;
+  }
+}
 
 #bigElement{
     background-image: url("images/big.png");
