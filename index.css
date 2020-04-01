@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 html{
     font-size: 24px;
@@ -41,7 +42,7 @@ body{
     flex-direction: row;
 }
 
-.container{
+.container_{
     display: grid;
     justify-content: center;
     overflow-x: hidden;
@@ -59,11 +60,10 @@ body{
   font-size: 40px;
 }
 
-/*.slideshow{
-    height: 15.625em;
-    width: 100%;
-    background-color: #f2e8e8;
-}*/
+.wrap {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+}
 
 .descriptions{
     height: 10.583em;
@@ -98,7 +98,7 @@ body{
     justify-content: center;
 }
 
-.slideshow-actions {
+.slideshow-Actions {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -106,7 +106,7 @@ body{
   margin: 10px 0;
 }
 
-.action {
+.Action {
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -120,15 +120,15 @@ body{
   backdrop-filter: saturate(280%) blur(10px);
 }
 
-.slideshow-actions a:first-child {
+.slideshow-Actions a:first-child {
   margin-right: 40px;
 }
 
-.slideshow-actions a:last-child {
+.slideshow-Actions a:last-child {
   margin-left: 40px;
 }
 
-.action:hover {
+.Action:hover {
   background-color: #121212d1;
   text-decoration: none;
 }
@@ -137,7 +137,7 @@ a {
   text-decoration: none;
 }
 
-.action-text {
+.Action-text {
   padding: 7px;
   font-size: 30px;
   font-family: Helvetica;
@@ -175,9 +175,15 @@ a {
     width: 100%;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:1200px){
     .nav{
         width: 100%;
+    }
+    .typing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .elementsGrid{
         display: none;
