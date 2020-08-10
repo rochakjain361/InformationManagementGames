@@ -189,6 +189,19 @@ a {
   font-family: Helvetica;
 }
 
+@media screen and (min-width: 1200px) {
+  .Action-text {
+    padding: 4px;
+    font-size: 25px;
+  }
+  .slideshow-Actions a:first-child {
+    margin-right: 65px;
+  }
+  .slideshow-Actions a:last-child {
+    margin-left: 65px;
+  }
+}
+
 
 .bigElement{
     grid-column: span 2;
@@ -249,7 +262,6 @@ a {
     margin-left: 50%;
 }
 .footer-bottom{
-    background: #223144;
     color: #fff;
     height: 50px;
     width:  100%;
@@ -563,7 +575,7 @@ a {
     background-size: cover;
 }
 #element3{
-    background-image: url("images/card3.png");
+    background-image: url("images/card3-ok.png");
     background-size: cover;
 }
 #element4{
@@ -571,11 +583,11 @@ a {
     background-size: cover;
 }
 #element5{
-    background-image: url("images/card5.png");
+    background-image: url("images/card5-ok.png");
     background-size: cover;
 }
 #element6{
-    background-image: url("images/card6.png");
+    background-image: url("images/card6-ok.png");
     background-size: cover;
 }
 #element7{
@@ -592,5 +604,29 @@ a {
 }
 #element10{
     background-image: url("images/card10.png");
+    background-size:cover;
+}
+#element11{
+    background-image: url("images/card11.png");
+    background-size:cover;
+}
+#element12{
+    background-image: url("images/card12.png");
+    background-size:cover;
+}
+#element13{
+    background-image: url("images/card13.png");
+    background-size:cover;
+}
+#element14{
+    background-image: url("images/card14.png");
+    background-size:cover;
+}
+#element15{
+    background-image: url("images/card15.png");
+    background-size:cover;
+}
+#element16{
+    background-image: url("images/card16.png");
     background-size:cover;
 }
